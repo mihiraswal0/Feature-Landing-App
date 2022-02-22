@@ -1,0 +1,87 @@
+/*Add a cover background for the featured part of our website*/
+.jumbotron{
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1675-1024x683.jpg);
+/*    bottom se streach karu hu fit krne k lya*/
+   background-size:100% 100%;
+   height: 600px;
+
+   
+}
+/*set the size of logo*/
+
+.logo{
+/*    background: black;*/
+  width: 75px;
+    height: 75px;
+}
+.featured{
+    color:#fff;
+}
+.featured h1{
+    padding-top: 50px;
+}
+.featured .btn-default{
+    font-weight: bold;
+    color: white;
+    background: rgb(145,82,58,0.5);
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 150px;
+    margin-right: 15px;
+}
+.featured .btn-default:hover{
+   background: rgb(145,82,58);
+}
+.trial{
+    font-weight: bold;
+   text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.trial img{
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+}
+.footer{
+    background: #eee;
+    font-size: 15px;
+    padding: 10px 0;
+    
+}
+/*add styling for device between 480px and 768 px;*/
+@media(min-width:480px) and (max-width:768px)
+{
+    
+    .jumbotron{
+        height: 450px;
+        margin: 0;
+/*        background: black;*/*/
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    featured h1{
+/*        margin-top: 100px;*/
+   padding-top: 30px;
+    }
+    .featured p{
+        font-size: 17px;
+    }
+    .featured{
+        text-align: center;
+    }
+    .trial img{
+        width: 150px;
+        height: 45px;
+        margin: 10px;
+    }
+    .footer{
+    background: #eee;
+    font-size: 15px;
+    padding-top:10px;
+        margin-top: 40px;
+    
+}
+}
